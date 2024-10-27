@@ -6,24 +6,24 @@
   :root {
     color-scheme: light;
     /* https://tailwindcss.com/docs/customizing-colors#using-css-variables */
-    --theme-bg: #efefef;
-    --theme-text: #222222;
-    --theme-accent: #dd7878;
-    --theme-accent-2: #bcc0cd;
-    --theme-surface: #e6e6e6;
-    --theme-quote: #dd7878;
-    --theme-highlight: #dd7878;
+    --theme-bg: #CACAC9;
+    --theme-text: #2f2f2f;
+    --theme-accent: #F5286A;
+    --theme-accent-2: #A31F5B;
+    --theme-surface: #969595;
+    --theme-quote: #A31F5B;
+    --theme-highlight: #A31F5B;
   }
 
   :root.dark {
     color-scheme: dark;
-    --theme-bg: #1d1d1d;
-    --theme-text: #ededed;
-    --theme-accent: #93e1d4;
-    --theme-accent-2: #545454;
+    --theme-bg: #000;
+    --theme-text: #CACAC9;
+    --theme-accent: #F5286A;
+    --theme-accent-2: #A31F5B;
     --theme-surface: #2f2f2f;
-    --theme-quote: #93e1d4;
-    --theme-highlight: #93e1d4;
+    --theme-quote: #F5286A;
+    --theme-highlight: #F5286A;
   }
 
   html {
